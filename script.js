@@ -30,8 +30,8 @@ function doubleClick(e) {
         image.style.transform = "scale(1)";
         image.style.cursor = 'zoom-in';
     } else {
-        translateX = scale(e.layerX, 0, containerPositionInfo.width, translateSpaceX, -translateSpaceX);
-        translateY = scale(e.layerY, 0, containerPositionInfo.height, translateSpaceY, -translateSpaceY);
+        translateX = scale(e.layerX, 0, imagePositionInfo.width, translateSpaceX, -translateSpaceX);
+        translateY = scale(e.layerY, 0, imagePositionInfo.height, translateSpaceY, -translateSpaceY);
 
         translate();
 
