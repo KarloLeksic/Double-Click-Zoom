@@ -1,0 +1,17 @@
+#container {
+    overflow: hidden;
+    border: 1px solid lime;
+    width: auto;
+    height: auto;
+    max-width: 600px;
+    /* Ovo strga ako su razlicite slike razlicitih omjera */
+    /*max-height: 400px;*/
+    
+}
+
+#image {
+  width: 100%; 
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
